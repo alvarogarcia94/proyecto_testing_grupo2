@@ -1,0 +1,35 @@
+
+ANEXO 1: Requisitos de los proyectos:
+
+El proyecto final consistirá en la creación de una web basada en el patrón Modelo Vista Controlador (MVC) con acceso
+a base de datos MySQL/ MariaDB:
+
+• Capa de datos: la aplicación utilizará el orm JPA para establecer la relación entre las tablas de la base de datos con las
+clases Java bajo el paradigma de la Programación Orientada a Objetos POO. Se desarrollarán modelos para cubrir al
+menos una relación de cada tipo: one-to-one, one-to-many, many-to-one, many-to-many.
+
+• Capa de control: se desarrollarán los controladores y servicios necesarios para procesar las peticiones HTTP que
+lleguen al backend de la aplicación así como realizar la lógica de negocio necesaria para realizar operaciones CRUD
+(crear, recuperar, actualizar y borrar) datos en la base de datos.
+
+• Capa de visualización: se desarrollará la interfaz de usuario que permita interactuar con la información ofrecida por
+la aplicación web y que será procesada por el backend para interactuar con la base de datos.
+
+Una vez implementada la aplicación se elaborarán suites de tests unitarios, de integración y de interfaz gráfica para la
+aseguración de la calidad en la misma. Por último, las suites de testing desarrolladas serán automatizadas utilizando
+herramientas de integración continua.
+
+
+ANEXO 2: Presentación del proyecto
+
+La presentación del proyecto debe tener una duración máxima de 10 minutos por grupo. Todos los grupos
+deben tratar los siguientes puntos:
+1. Presentación del problema / necesidad
+2. Equipo y roles
+3. Herramientas de metodología y metodología
+4. Pantallas de la aplicación (mostrar capturas y explicar brevemente las funcionalidades): login, pantalla principal,
+pantalla detalle, etc.
+5 . Conclusiones
+
+Nota: Existe la posibilidad de poner un vídeo demo al finalizar la presentación, de 60 segundos (aprox), para
+mostrar la aplicación en funcionamiento con sus diferentes pantallas.
