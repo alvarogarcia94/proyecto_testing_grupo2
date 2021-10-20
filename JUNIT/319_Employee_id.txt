@@ -1,0 +1,10 @@
+@DisplayName("Buscar un empleado con id 1")
+    @Test
+    void findOne1Test() {
+        
+        Employee employee  = service.findOne(1L);
+
+        assertNotNull(employee);
+        assertEquals(1L, employee.getId());
+        assertNotNull(employee.getName());
+    }

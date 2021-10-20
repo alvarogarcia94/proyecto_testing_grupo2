@@ -1,0 +1,4 @@
+@RunWith(JUnitPlatform.class)
+@SelectPackages("com.example.demo.service")
+public class Suite2Test {
+}

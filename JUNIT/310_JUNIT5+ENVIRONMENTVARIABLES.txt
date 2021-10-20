@@ -1,0 +1,13 @@
+// Variables de entorno y propiedades de sistema
+    @Test
+    void printEnv(){
+        // Imprimir las propiedades del sistema
+        System.getProperties().forEach(
+                (key, value) -> System.out.println(key + " " + value)
+        );
+
+        // Imprimir variables de entorno
+        System.getenv().forEach(
+                (key, value) -> System.out.println(key + " " + value)
+        );
+    }

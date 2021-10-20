@@ -1,0 +1,15 @@
+@Test
+    void test1(){
+        String username = System.getenv("USERNAME");
+        assumeTrue(username.equals("pc_testing"));
+
+
+        SmartPhoneServiceImpl service = new SmartPhoneServiceImpl();
+
+        Integer num = service.count();
+
+        assertNotNull(num);
+        assertTrue(num > 0);
+        assertEquals(3, num);
+
+    }
